@@ -1,0 +1,24 @@
+import React from 'react';
+import MyImage from './whitebeard.jpg'
+
+import './App.css';
+import './style.css'
+function App() {
+  return (
+    <div className="App" >
+    <div style={{border:"solid 1px black",
+  maxWidth:"100vw"}}>
+<h1 className="title red">ilyes</h1>
+<br />
+<img src={MyImage} alt="MyImage" />
+<br />
+<img src="\white.jpg" alt="White" />
+</div>
+<video width="320" height="240" controls src="\whitebeard1.mp4" type="video/mp4" />
+
+ 
+   </div>
+  );
+}
+
+export default App;

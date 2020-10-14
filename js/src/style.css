@@ -1,0 +1,16 @@
+.title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: xx-large;
+}
+.red {
+    color: red;
+}
+.App {
+    background-color: silver;
+}
+img{
+    border-radius: 10px;
+    width: 10%;
+    height: 50%;
+  
+}
